@@ -1,0 +1,104 @@
+[111.037731171] 2018-07-12 12:36:13,726 - INFO - launcher: Starting sanity checks
+[112.036943436] 2018-07-12 12:36:13,727 - INFO - launcher: Checking for Python 3.5+
+[113.037347794] 2018-07-12 12:36:13,728 - INFO - launcher: Checking console encoding
+[113.037347794] 2018-07-12 12:36:13,728 - INFO - launcher: Setting console encoding to UTF-8
+[114.036798477] 2018-07-12 12:36:13,729 - INFO - launcher: Ensuring we're in the right environment
+[118.039369583] 2018-07-12 12:36:13,733 - INFO - launcher: Adding local bins/ folder to path
+[120.039939880] 2018-07-12 12:36:13,735 - INFO - launcher: Required checks passed.
+[121.039152145] 2018-07-12 12:36:13,736 - INFO - launcher: Optional checks passed.
+[122.040748596] 2018-07-12 12:36:13,737 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[4.9315688610076904] 2018-07-12 12:36:18,547 - WARNING - musicbot.config | In config.py::MainThread(5016), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[4.9325690269470215] 2018-07-12 12:36:18,548 - INFO - musicbot.config | In config.py::MainThread(5016), line 123 in run_checks: Using i18n: config/i18n/en.json
+[4.9345691204071045] 2018-07-12 12:36:18,550 - WARNING - musicbot.config | In config.py::MainThread(5016), line 206 in create_empty_file_ifnoexist: Creating config/blacklist.txt
+[4.9365723133087158] 2018-07-12 12:36:18,552 - WARNING - musicbot.config | In config.py::MainThread(5016), line 206 in create_empty_file_ifnoexist: Creating config/whitelist.txt
+[4.9815871715545654] 2018-07-12 12:36:18,597 - DEBUG - musicbot.config | In config.py::MainThread(5016), line 291 in find_autoplaylist: Copying _autoplaylist.txt to autoplaylist.txt
+[4.9925887584686279] 2018-07-12 12:36:18,608 - DEBUG - musicbot.json | In json.py::MainThread(5016), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[6.1699619293212891] 2018-07-12 12:36:19,785 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 227 in _setup_logging: Set logging level to INFO
+[6.1699619293212891] 2018-07-12 12:36:19,785 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 84 in __init__: Starting MusicBot 1.9.7
+[6.1709635257720947] 2018-07-12 12:36:19,786 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[10.8904640674591064] 2018-07-12 12:36:24,505 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 1074 in on_ready: Connection established, ready to go.
+[10.8914644718170166] 2018-07-12 12:36:24,506 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 339 in _cache_app_info: Caching app info
+[11.1035337448120117] 2018-07-12 12:36:24,719 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[11.1165380477905273] 2018-07-12 12:36:24,732 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 905 in _scheck_server_permissions: Checking server permissions
+[11.1175377368927002] 2018-07-12 12:36:24,733 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[11.1175377368927002] 2018-07-12 12:36:24,733 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 913 in _scheck_configs: Validating config
+[11.1185379028320312] 2018-07-12 12:36:24,734 - DEBUG - musicbot.config | In config.py::MainThread(5016), line 212 in async_validate: Validating options...
+[11.1185379028320312] 2018-07-12 12:36:24,734 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 916 in _scheck_configs: Validating permissions config
+[11.1185379028320312] 2018-07-12 12:36:24,734 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5016), line 64 in async_validate: Validating permissions...
+[11.1195375919342041] 2018-07-12 12:36:24,735 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 1091 in on_ready: Connected: 462342841419431948/EnderDJ#2643
+[11.1205379962921143] 2018-07-12 12:36:24,736 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 1099 in on_ready: Owner:     388650350074265601/SαdBσч#9981
+
+[11.1675522327423096] 2018-07-12 12:36:24,783 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 1102 in on_ready: Server List:
+[11.1685526371002197] 2018-07-12 12:36:24,784 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 1105 in on_ready:  - EnderMC
+[11.1695523262023926] 2018-07-12 12:36:24,785 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 1138 in on_ready: Bound to text channels:
+[11.1705539226531982] 2018-07-12 12:36:24,786 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 1139 in <listcomp>:  - EnderMC/『comandos』
+[11.1715536117553711] 2018-07-12 12:36:24,787 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 1164 in on_ready: Autojoining voice chanels:
+[11.1735541820526123] 2018-07-12 12:36:24,789 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 1165 in <listcomp>:  - EnderMC/【Bate-Papo [1]】
+[11.1745550632476807] 2018-07-12 12:36:24,790 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 1165 in <listcomp>:  - EnderMC/【Bate-Papo [2]】
+[11.1755547523498535] 2018-07-12 12:36:24,791 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 1165 in <listcomp>:  - EnderMC/【Bate-Papo [3]】
+[11.1775574684143066] 2018-07-12 12:36:24,793 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 1165 in <listcomp>:  - EnderMC/🎶《Músicas》🎶
+[11.1805558204650879] 2018-07-12 12:36:24,796 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 281 in _join_startup_channels: Attempting to join EnderMC/🎶《Músicas》🎶
+[11.1825582981109619] 2018-07-12 12:36:24,798 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 452 in get_voice_client: Connection attempt 1 to 🎶《Músicas》🎶
+[11.1835594177246094] 2018-07-12 12:36:24,799 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5016), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[11.1845576763153076] 2018-07-12 12:36:24,800 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5016), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[11.1855580806732178] 2018-07-12 12:36:24,801 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5016), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[11.3546130657196045] 2018-07-12 12:36:24,970 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5016), line 2938 in on_voice_state_update: Voice state update for 462342841419431948/EnderDJ#2643 on EnderMC/🎶《Músicas》🎶 -> [JOIN, CONNECT]
+[11.3556132316589355] 2018-07-12 12:36:24,971 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 2949 in on_voice_state_update: 462342841419431948/EnderDJ#2643 has joined EnderMC/🎶《Músicas》🎶
+[11.3646149635314941] 2018-07-12 12:36:24,980 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5016), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[11.4766504764556885] 2018-07-12 12:36:25,092 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5016), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[11.8307631015777588] 2018-07-12 12:36:25,446 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5016), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[11.8317635059356689] 2018-07-12 12:36:25,447 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 478 in get_voice_client: Connected in 0.6s
+[11.8317635059356689] 2018-07-12 12:36:25,447 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 479 in get_voice_client: Connected to EnderMC/🎶《Músicas》🎶
+[11.8337647914886475] 2018-07-12 12:36:25,449 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 297 in _join_startup_channels: Joined EnderMC/🎶《Músicas》🎶
+[11.8357646465301514] 2018-07-12 12:36:25,451 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 679 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[11.8557691574096680] 2018-07-12 12:36:25,471 - VOICEDEBUG - musicbot.player | In player.py::MainThread(5016), line 373 in websocket_check: Starting websocket check loop for EnderMC
+[19.4401841163635254] 2018-07-12 12:36:33,055 - DEBUG - musicbot.entry | In entry.py::MainThread(5016), line 54 in get_ready_future: Created future for None
+[19.4431843757629395] 2018-07-12 12:36:33,058 - INFO - musicbot.entry | In entry.py::MainThread(5016), line 220 in _really_download: Download started: https://youtube.com/watch?v=w_nGIhgggiM
+[21.4378192424774170] 2018-07-12 12:36:35,053 - DEBUG - musicbot.entry | In entry.py::MainThread(5016), line 54 in get_ready_future: Created future for None
+[39.9566700458526611] 2018-07-12 12:36:53,572 - INFO - musicbot.entry | In entry.py::MainThread(5016), line 230 in _really_download: Download complete: https://youtube.com/watch?v=w_nGIhgggiM
+[39.9646713733673096] 2018-07-12 12:36:53,580 - FFMPEG - musicbot.player | In player.py::MainThread(5016), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-w_nGIhgggiM-Dirty_Girl_-_Felt.m4a
+[39.9736762046813965] 2018-07-12 12:36:53,589 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 256 in _autopause: Initial autopause in empty channel
+[39.9746766090393066] 2018-07-12 12:36:53,590 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 666 in _autopause: Player finished playing, autopaused in empty channel
+[39.9776773452758789] 2018-07-12 12:36:53,593 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 825 in serialize_queue: Serializing queue for 437239974241501184
+[82.4331793785095215] 2018-07-12 12:37:36,048 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5016), line 2938 in on_voice_state_update: Voice state update for 388650350074265601/SαdBσч#9981 on EnderMC/🎶《Músicas》🎶 -> [JOIN, CONNECT, MUTE]
+[82.4331793785095215] 2018-07-12 12:37:36,048 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 2949 in on_voice_state_update: 388650350074265601/SαdBσч#9981 has joined EnderMC/🎶《Músicas》🎶
+[82.4351780414581299] 2018-07-12 12:37:36,050 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 2977 in on_voice_state_update: Unpausing in EnderMC/🎶《Músicas》🎶
+[98.9344251155853271] 2018-07-12 12:37:52,549 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 2734 in on_message: 388650350074265601/SαdBσч#9981: e!play gucci
+[100.3928894996643066] 2018-07-12 12:37:54,008 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 1517 in cmd_play: {'extractor_key': 'Generic', 'url': 'ytsearch:gucci', 'ie_key': None, 'extractor': 'generic', '_type': 'url', 'webpage_url': 'gucci', 'webpage_url_basename': 'gucci'}
+[110.4180772304534912] 2018-07-12 12:38:04,033 - DEBUG - musicbot.entry | In entry.py::MainThread(5016), line 54 in get_ready_future: Created future for None
+[110.4220771789550781] 2018-07-12 12:38:04,037 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 825 in serialize_queue: Serializing queue for 437239974241501184
+[110.4460847377777100] 2018-07-12 12:38:04,061 - INFO - musicbot.entry | In entry.py::MainThread(5016), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=4LfJnj66HVQ
+[114.0672369003295898] 2018-07-12 12:38:07,682 - INFO - musicbot.entry | In entry.py::MainThread(5016), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=4LfJnj66HVQ
+[118.4196214675903320] 2018-07-12 12:38:12,035 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 2734 in on_message: 388650350074265601/SαdBσч#9981: e!skip
+[118.4936437606811523] 2018-07-12 12:38:12,109 - DEBUG - musicbot.entry | In entry.py::MainThread(5016), line 54 in get_ready_future: Created future for audio_cache\youtube-4LfJnj66HVQ-Lil_Pump_-_Gucci_Gang_Official_Music_Video.webm
+[118.4936437606811523] 2018-07-12 12:38:12,109 - FFMPEG - musicbot.player | In player.py::MainThread(5016), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-4LfJnj66HVQ-Lil_Pump_-_Gucci_Gang_Official_Music_Video.webm
+[118.5296590328216553] 2018-07-12 12:38:12,145 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 825 in serialize_queue: Serializing queue for 437239974241501184
+[118.5446605682373047] 2018-07-12 12:38:12,160 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 825 in serialize_queue: Serializing queue for 437239974241501184
+[197.0768268108367920] 2018-07-12 12:39:30,692 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5016), line 2938 in on_voice_state_update: Voice state update for 411681571633102868/Ｋ口ち丹Ｋ工-Ｋ∪れ#4918 on EnderMC/🎶《Músicas》🎶 -> [JOIN, CONNECT, MUTE, DEAFEN]
+[197.0768268108367920] 2018-07-12 12:39:30,692 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 2949 in on_voice_state_update: 411681571633102868/Ｋ口ち丹Ｋ工-Ｋ∪れ#4918 has joined EnderMC/🎶《Músicas》🎶
+[205.0553636550903320] 2018-07-12 12:39:38,670 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5016), line 2938 in on_voice_state_update: Voice state update for 411681571633102868/Ｋ口ち丹Ｋ工-Ｋ∪れ#4918 on EnderMC/🎶《Músicas》🎶 -> [UNDEAFEN]
+[250.3987805843353271] 2018-07-12 12:40:24,014 - ERROR - musicbot.bot | In bot.py::MainThread(5016), line 701 in on_player_finished_playing: Error processing "https://youtube.com/watch?v=bbw1r32MJpY": ERROR: "If You Could See M..." The YouTube account associated with this video has been terminated due to multiple third-party notifications of copyright infringement.
+[250.4007811546325684] 2018-07-12 12:40:24,016 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 352 in remove_from_autoplaylist: Removing unplayable song from autoplaylist: https://youtube.com/watch?v=bbw1r32MJpY
+[250.4247894287109375] 2018-07-12 12:40:24,040 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 366 in remove_from_autoplaylist: Updating autoplaylist
+[257.1979413032531738] 2018-07-12 12:40:30,813 - DEBUG - musicbot.entry | In entry.py::MainThread(5016), line 54 in get_ready_future: Created future for None
+[257.1999452114105225] 2018-07-12 12:40:30,815 - INFO - musicbot.entry | In entry.py::MainThread(5016), line 220 in _really_download: Download started: https://youtube.com/watch?v=feQhtf-KJvw
+[259.2025794982910156] 2018-07-12 12:40:32,818 - DEBUG - musicbot.entry | In entry.py::MainThread(5016), line 54 in get_ready_future: Created future for None
+[265.3575377464294434] 2018-07-12 12:40:38,973 - INFO - musicbot.entry | In entry.py::MainThread(5016), line 230 in _really_download: Download complete: https://youtube.com/watch?v=feQhtf-KJvw
+[265.4695727825164795] 2018-07-12 12:40:39,085 - FFMPEG - musicbot.player | In player.py::MainThread(5016), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-feQhtf-KJvw-MOTi_-_Louder.webm
+[265.4925806522369385] 2018-07-12 12:40:39,108 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 825 in serialize_queue: Serializing queue for 437239974241501184
+[266.6329441070556641] 2018-07-12 12:40:40,248 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 2734 in on_message: 388650350074265601/SαdBσч#9981: e!play rap do minecraft
+[267.3791799545288086] 2018-07-12 12:40:40,994 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 1517 in cmd_play: {'extractor_key': 'Generic', 'url': 'ytsearch:rap do minecraft', 'ie_key': None, 'extractor': 'generic', '_type': 'url', 'webpage_url': 'rap do minecraft', 'webpage_url_basename': 'rap do minecraft'}
+[274.7435212135314941] 2018-07-12 12:40:48,359 - DEBUG - musicbot.entry | In entry.py::MainThread(5016), line 54 in get_ready_future: Created future for None
+[274.7485251426696777] 2018-07-12 12:40:48,364 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 825 in serialize_queue: Serializing queue for 437239974241501184
+[274.7725322246551514] 2018-07-12 12:40:48,388 - INFO - musicbot.entry | In entry.py::MainThread(5016), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=rQzSiiRe6YM
+[277.6714527606964111] 2018-07-12 12:40:51,286 - INFO - musicbot.entry | In entry.py::MainThread(5016), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=rQzSiiRe6YM
+[410.9947648048400879] 2018-07-12 12:43:04,610 - INFO - musicbot.bot | In bot.py::MainThread(5016), line 2734 in on_message: 388650350074265601/SαdBσч#9981: e!skip
+[411.1138012409210205] 2018-07-12 12:43:04,729 - DEBUG - musicbot.entry | In entry.py::MainThread(5016), line 54 in get_ready_future: Created future for audio_cache\youtube-rQzSiiRe6YM-RAP_DO_MINECRAFT.webm
+[411.1138012409210205] 2018-07-12 12:43:04,729 - FFMPEG - musicbot.player | In player.py::MainThread(5016), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-rQzSiiRe6YM-RAP_DO_MINECRAFT.webm
+[411.1388094425201416] 2018-07-12 12:43:04,754 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 825 in serialize_queue: Serializing queue for 437239974241501184
+[411.1558146476745605] 2018-07-12 12:43:04,771 - DEBUG - musicbot.bot | In bot.py::MainThread(5016), line 825 in serialize_queue: Serializing queue for 437239974241501184
+[476.5114083290100098] 2018-07-12 12:44:10,126 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5016), line 2938 in on_voice_state_update: Voice state update for 462342841419431948/EnderDJ#2643 on EnderMC/🎶《Músicas》🎶 -> [DISCONNECT]
+[476.5574195384979248] 2018-07-12 12:44:10,172 - ERROR - musicbot.bot | In bot.py::MainThread(5016), line 707 in on_player_finished_playing: Error processing "https://youtube.com/watch?v=lAivBjfVH0o": 
